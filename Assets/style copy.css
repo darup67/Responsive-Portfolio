@@ -13,7 +13,7 @@ html {
 body {
     font-family: "SF Pro Display", "Helvetica Neue", Georgia, "Times New Roman", Times, serif;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    background-image: url("./assets/greybackgroundcopy.jpg");
+    background-image: url("./Assets/greybackgroundcopy.jpg");
     background-repeat: repeat;
     background-color: #ffffff;
     color: #777777;
@@ -24,9 +24,7 @@ body {
     flex-direction: column;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #ffffff;
 }
@@ -145,8 +143,7 @@ hr {
     line-height: 2em;
 }
 
-#contactForm,
-#infoSubmit {
+#contactForm, #infoSubmit {
     width: 100%;
 }
 
@@ -155,16 +152,14 @@ hr {
     margin: 1em auto .3em auto;
 }
 
-input[type=text],
-textarea {
+input[type=text], textarea {
     width: 100%;
     border-radius: 2px;
     padding-left: 2px;
     resize: vertical;
 }
 
-input:focus,
-textarea:focus {
+input:focus, textarea:focus {
     background: yellow;
     color: black;
     box-shadow: 0 0 15px 5px #b0e0ee;
@@ -175,15 +170,13 @@ textarea {
     overflow: auto;
 }
 
-input[type=text],
-input[type=submit] {
+input[type=text], input[type=submit] {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
 }
 
-#submit,
-#reset {
+#submit, #reset {
     border: 0;
     box-shadow: none;
     border-radius: 2px;
@@ -192,8 +185,7 @@ input[type=submit] {
     color: #ffffff;
 }
 
-#submit:hover,
-#reset:hover {
+#submit:hover, #reset:hover {
     background: yellow;
     color: #777777;
 }
